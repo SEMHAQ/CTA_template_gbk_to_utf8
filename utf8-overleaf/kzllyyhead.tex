@@ -12,7 +12,7 @@
 \usepackage{bm}          % 公式中的粗体字符(用命令\boldsymbol）
 \usepackage{multicol}    % 正文双栏
 \usepackage{indentfirst} % 中文首段缩进
-\usepackage{picins}      % 图片嵌入段落宏包 比如照片
+%\usepackage{picins}      % 图片嵌入段落宏包 比如照片 (TeX Live 2026 已不自带)
 \usepackage{abstract}    % 2栏文档，一栏摘要及关键字宏包
 \usepackage{amsthm}      % 使用定理
 \usepackage{booktabs}    % 使用表格
@@ -29,11 +29,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setCJKmainfont[BoldFont={FandolHei},ItalicFont={FandolKai}]{FandolSong}
 \setCJKsansfont{FandolHei}
-\setCJKmonofamily{FandolFang}
-\newCJKfamily{song}{FandolSong}    % 宋体
-\newCJKfamily{hei}{FandolHei}      % 黑体
-\newCJKfamily{kai}{FandolKai}      % 楷体
-\newCJKfamily{fsong}{FandolFang}   % 仿宋
+\setCJKmonofont{FandolFang}
+\setCJKfamilyfont{song}{FandolSong}    % 宋体
+\setCJKfamilyfont{hei}{FandolHei}      % 黑体
+\setCJKfamilyfont{kai}{FandolKai}      % 楷体
+\setCJKfamilyfont{fsong}{FandolFang}   % 仿宋
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  lengths
 %    下面的命令重定义页面边距，使其符合中文刊物习惯。
