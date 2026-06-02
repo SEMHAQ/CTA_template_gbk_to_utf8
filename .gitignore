@@ -21,3 +21,8 @@
 *.bcf
 *.run.xml
 *.latexmain
+
+# Build artifacts
+*.zip
+utf8/*.pdf
+utf8-overleaf/*.pdf
