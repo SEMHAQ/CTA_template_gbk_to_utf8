@@ -64,7 +64,8 @@ latexmk -xelatex "kzllyy template20181214.tex"
 ### Overleaf 使用方法
 1. 将 `utf8-overleaf/` 目录下的所有文件打包为 zip
 2. 在 Overleaf 中 New Project → Upload Project → 上传 zip
-3. 在 Menu 中将 Compiler 设为 **XeLaTeX**
+3. 左上角 **File** → **Settings** → **Main Document** 选 `kzllyy template20181214.tex`
+4. **Settings** → **Compiler** 选 **XeLaTeX**
 
 ## 字体说明
 
